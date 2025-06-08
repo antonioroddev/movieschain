@@ -1,0 +1,58 @@
+# ========================
+# Global
+# ========================
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.iml
+.idea/
+.vscode/
+.env
+.env.*
+
+# ========================
+# Node.js (Web + Contract)
+# ========================
+**/node_modules/
+**/dist/
+**/build/
+**/.parcel-cache/
+**/coverage/
+**/.turbo/
+**/.next/
+**/yarn.lock
+
+# ========================
+# Vue.js / Vite (Web)
+# ========================
+**/movieschain-web/.output/
+**/movieschain-web/.vite/
+**/movieschain-web/public/build/
+**/movieschain-web/.nuxt/
+
+# ========================
+# Java (API - Spring Boot)
+# ========================
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.log
+**/.mvn/
+**/.gradle/
+**/movieschain-api/.idea/
+**/movieschain-api/.classpath
+**/movieschain-api/.project
+**/movieschain-api/.settings/
+
+# ========================
+# Hardhat (Contract)
+# ========================
+**/movieschain-contract/artifacts/
+**/movieschain-contract/cache/
+**/movieschain-contract/typechain/
+**/movieschain-contract/typechain-types/
+**/movieschain-contract/coverage/
+**/movieschain-contract/.env
+
